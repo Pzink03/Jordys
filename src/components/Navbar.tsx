@@ -32,7 +32,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between z-10 items-center w-full h-20 text-secondary bg-secondary-pink fixed md:pr-4">
         <img
-        src="./assets/SmallLogo.svg"
+        src="/assets/SmallLogo.svg"
         className="md:w-36 md:h-36 w-24 h-24"
         alt="Logo"
         />
@@ -43,7 +43,7 @@ const NavBar = () => {
               key={id}
               className={`cursor-pointer capitalize font-medium hover:text-secondary-400 ${location.pathname === `${link}` ? 'text-primary-green border-b-4 border-primary-green': ''}`}
             >
-             <Link to={`${link}`}>
+             <Link to={link}>
                 {title}
               </Link>
             </li>

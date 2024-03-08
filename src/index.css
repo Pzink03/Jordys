@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .waving-hand {
   display: inline-block;
   animation-name: wave-animation;

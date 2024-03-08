@@ -27,7 +27,7 @@ const perks = [
 
 export function Home(){
     return (
-        <div className=" min-w-screen px-4 pt-20 flex flex-col items-center justify-center relative">
+        <div className=" min-w-screen h-full px-4 pt-20 flex flex-col items-center justify-center relative">
             <div className="flex flex-col items-center absolute top-0 z-20 ">
                 <img
                 src="/assets/Logo.svg"

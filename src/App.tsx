@@ -4,10 +4,12 @@ import { Contact } from './pages/Contact'
 import { About } from './pages/About'
 import { RootLayout } from './layouts/RootLayout'
 import { Services } from './pages/Services'
+import { ScrollToTop } from './components/ScrollToTop'
 
 export function App() {
   return (
-    <main className=''>
+    <>
+    <ScrollToTop />
       <Routes>
         <Route element={<RootLayout />}>
           <Route index element={<Home />} />
@@ -16,7 +18,9 @@ export function App() {
           <Route path='/services' element={<Services />} />
         </Route>
       </Routes>
-    </main>
+    </>
+
+
   )
 }
 
