@@ -9,7 +9,7 @@ type HeroCardProps = {
 
 
 
-export function HeroCard({title, description, image, className}: HeroCardProps){
+export function HeroCard({title, description, image}: HeroCardProps){
     return (
       <>
             <div className={`gap-10`}>
