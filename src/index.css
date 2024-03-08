@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.waving-hand {
+  display: inline-block;
+  animation-name: wave-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(20deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-20deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.main-cards-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 0.3em;
+  margin: 1rem 0;
+  /* position: relative; */
+}
+
+.main-card.accent {
+  margin: 0;
+  position: relative;
+}
+
+.main-card:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+  transform-origin: right;
+  box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+.main-card:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none;
+  transform-origin: left;
+  list-style: none;
+  box-shadow: 7px 3px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.card-name {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-family: Oswald;
+}
+
+.card-feature {
+  justify-items: center;
+  padding: 10px;
+}
+
+.feature {
+  margin-bottom: 0.5rem;
+  flex-direction: column;
+  padding: 0.3rem;
+  font-size: 1.25rem;
+  align-self: flex-start;
+  font-family: Consolas;
+}
+
+.feature:last-child {
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.feature.last-card {
+  list-style: none;
+}
+
+.card-picture {
+  border-radius: 50%;
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  object-fit: cover;
+  padding: 0.3rem;
+}
+
+.main-card:hover {
+  transform: scale(1.05);
+  border: 1px solid #0af;
+  box-shadow: 0 0 5px 0 #0af;
+}
+
+@media (max-width: 700px) {
+  .testimonial-grid {
+    grid-template-columns: minmax(auto, 450px);
+    row-gap: 30px;
+  }
+
+  .full-screen-header {
+    background-position-x: 65%;
+  }
+
+  .main-cards-container {
+    flex-wrap: wrap;
+  }
+
+  .main-card,
+  .main-card.accent {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .main-card:first-child,
+  .main-card:last-child {
+    border-radius: 0.3em;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    transform-origin: center;
+  }
+  .main-card:last-child {
+    margin-bottom: 0;
+  }
+
+  .feature {
+    text-align: center;
+    list-style: none;
+  }
+
+  .feature.inactive {
+    display: none;
+  }
+}
