@@ -13,19 +13,17 @@ export function Services(){
                 />
             </div>
             <Reveal>
-
-            <div className="flex flex-col mt-[200px] justify-center items-center">
-                        <h1 className=' my-2 p-4 border-t-2 text-3xl md:text-6xl text-black'>
-                            What We Offer
-                        </h1>
-                        <p className="md:w-1/2 w-5/6 text-center text-lg md:text-xl">
-                        Whether you require a regular cleaning schedule or a one-time deep clean, count on us to handle all your cleaning needs with expertise and care.
-                        </p>
-            </div>
+                <div className="flex flex-col mt-[200px] justify-center items-center">
+                    <h1 className=' my-2 p-4 border-t-2 text-3xl md:text-6xl text-black'>
+                    What We Offer
+                    </h1>
+                    <p className="md:w-1/2 w-5/6 text-center text-lg md:text-xl">
+                    Whether you require a regular cleaning schedule or a one-time deep clean, count on us to handle all your cleaning needs with expertise and care.
+                    </p>
+                </div>
             </Reveal>
             <Reveal>
-
-            <ServiceCard />
+                <ServiceCard />
             </Reveal>
             <Reveal>
                 <div className="w-full flex flex-col items-center justify-center">
