@@ -1,6 +1,7 @@
 import { motion, useAnimation, useInView } from "framer-motion"
 import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
+import { Reveal } from "@/components/Reveal"
 
 
 // const variants = {
@@ -29,6 +30,8 @@ export function About(){
                     className="w-[300px]"
                     />
                 </div>
+                <Reveal>
+
                 <div className="mt-[200px] text-black w-full  flex flex-col items-center justify-center">
                     <h1 className="border-t-2 border-secondary-400 font-bol text-6xl py-4 my-4">
                         About Jordy's
@@ -39,6 +42,9 @@ export function About(){
                         </p>
                     </div>
                 </div>
+                </Reveal>
+                <Reveal>
+
                 <div className="max-w-7xl flex flex-col justify-center items-center">
                 <section className="w-full h-auto my-6 bg-secondary-pink shadow-md">
                     <div className="flex md:flex-row flex-col-reverse w-full items-center justify-center">
@@ -75,7 +81,7 @@ export function About(){
                         </div>
                     </div>
                 </section>
-                <motion.section className="w-full h-auto mb-6 bg-secondary-pink">
+                <section className="w-full h-auto mb-6 bg-secondary-pink">
                     <div className="flex md:flex-row flex-col-reverse w-full items-center justify-center">
                         <div className="px-4 md:px-10 py-10 text-center block items-center">
                             <h1 className='p-2 text-4xl text-black border-b-2 inline-block'>
@@ -91,7 +97,7 @@ export function About(){
                         className=" w-[400px] h-[400px] object-cover"
                         />
                     </div>
-                </motion.section>
+                </section>
                 {/* <motion.section ref={ref}
                             initial="hidden"
                             animate={mainControls}
@@ -114,6 +120,9 @@ export function About(){
                     </div>
                 </motion.section> */}
                 </div>
+                </Reveal>
+                <Reveal>
+
                 <section className="py-6 max-w-7xl h-full">
                     <header className="flex justify-center py-10 items-center ">
                         <h1 className="md:text-6xl text-4xl border-secondary-400 text-black font-bold">
@@ -128,6 +137,7 @@ export function About(){
                         <p className="md:w-4/6 w-full text-center pb-10 text-xl">Hey there, we're Jordan and Pete. Throughout our journey together, we've discovered a mutual drive to achieve our goals, hand in hand. Whether it's exploring new adventures or building our dreams, we're committed to supporting each other every step of the way. Our partnership isn't just about our commitment to each other; it's about teamwork, resilience, and unwavering dedication to creating a future we're both proud of. We appreciate your consideration and support in helping us achieve our financial goals.</p>
                     </div>
                 </section>
+                </Reveal>
                 <div className="w-full flex flex-col items-center justify-center">
                     <h1 className="font-bold border-b-2 pb-2 my-10 text-xl md:text-2xl w-2/3 text-center">
                     We guarantee a consistent, professional cleaning on every visit.

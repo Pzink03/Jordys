@@ -1,6 +1,7 @@
 import { LucideHome, CheckCircle, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { Reveal } from "@/components/Reveal";
 
 
 const perks = [
@@ -27,7 +28,10 @@ const perks = [
 
 export function Home(){
     return (
+
+
         <div className=" min-w-screen h-full px-4 pt-20 flex flex-col items-center justify-center relative">
+
             <div className="flex flex-col items-center absolute top-0 z-20 ">
                 <img
                 src="/assets/Logo.svg"
@@ -35,6 +39,7 @@ export function Home(){
                 />
 
             </div>
+            <Reveal>
             <section className="w-full h-auto mt-[200px] ">
                 <div className="flex flex-col justify-center items-center">
                         <h1 className=' my-2 p-2 border-t-2 md:text-6xl text-4xl text-black'>
@@ -47,6 +52,10 @@ export function Home(){
                 </div>
 
             </section>
+            </Reveal>
+            <Reveal>
+
+
             <div className="mt-4 text-black w-full flex flex-col items-center justify-center">
                 <h1 className="border-b-2 border-secondary-400 font-bold md:text-3xl text-2xl py-4">
                     Some of Our Services
@@ -88,6 +97,7 @@ export function Home(){
                     </Link>
                 </div>
             </div>
+            </Reveal>
             <section className="flex flex-col justify-center items-center">
             <h1 className="border-b-2 pt-10 border-secondary-400 font-bold md:text-3xl text-2xl py-4">
                     Free Estimate
@@ -102,5 +112,7 @@ export function Home(){
                 </Link>
             </section>
         </div>
+
+
     )
 }
