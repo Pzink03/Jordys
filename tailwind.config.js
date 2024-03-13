@@ -17,6 +17,10 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        playfair: "Playfair Display, san-serif",
+        roboto: "Roboto, san-serif",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

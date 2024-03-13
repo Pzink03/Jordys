@@ -14,7 +14,7 @@ export function About(){
                 </div>
                 <Reveal>
                     <div className="mt-[200px] text-black w-full  flex flex-col items-center justify-center">
-                        <h1 className="border-t-2 border-secondary-400 font-bol text-6xl py-4 my-4">
+                        <h1 className="border-t-2 border-secondary-400 font-bol text-6xl py-4 my-4 font-playfair">
                             About Jordy's
                         </h1>
                         <div className="max-w-4xl p-4 flex flex-col items-center justify-center relative">
@@ -29,7 +29,7 @@ export function About(){
                         <section className="w-full h-auto my-6 bg-secondary-pink shadow-md">
                             <div className="flex md:flex-row flex-col-reverse w-full items-center justify-center">
                                 <header className="px-4 md:px-10 py-10 text-center block items-center">
-                                    <h1 className=' p-2 text-4xl text-black border-b-2 inline-block'>
+                                    <h1 className=' p-2 text-4xl text-black border-b-2 inline-block font-playfair'>
                                         Why Choose Jordy's?
                                     </h1>
                                     <p className="text-center text-subtext block">
@@ -50,8 +50,7 @@ export function About(){
                                 className=" w-[400px] h-[400px] object-cover "
                                 />
                                 <div className="px-4 md:px-10 py-10 text-center block items-center">
-
-                                    <h1 className=' p-2 text-4xl text-black border-b-2 inline-block'>
+                                    <h1 className=' p-2 text-4xl text-black border-b-2 inline-block font-playfair'>
                                         Exceptional Service You Can Trust
                                     </h1>
                                     <p className="text-center text-subtext block">
@@ -64,7 +63,7 @@ export function About(){
                         <section className="w-full h-auto mb-6 bg-secondary-pink">
                             <div className="flex md:flex-row flex-col-reverse w-full items-center justify-center">
                                 <div className="px-4 md:px-10 py-10 text-center block items-center">
-                                    <h1 className='p-2 text-4xl text-black border-b-2 inline-block'>
+                                    <h1 className='p-2 text-4xl text-black border-b-2 inline-block font-playfair'>
                                         Customer Satisfaction Is Our Number One Goal
                                     </h1>
                                     <p className="text-center text-subtext block">
@@ -83,7 +82,7 @@ export function About(){
                 <Reveal>
                     <section className="py-6 max-w-7xl h-full">
                         <header className="flex justify-center py-10 items-center ">
-                            <h1 className="md:text-6xl text-4xl border-secondary-400 text-black font-bold">
+                            <h1 className="md:text-6xl text-4xl border-secondary-400 text-black font-bold font-playfair">
                                 Meet The Team
                             </h1>
                         </header>
@@ -97,7 +96,7 @@ export function About(){
                     </section>
                 </Reveal>
                 <div className="w-full flex flex-col items-center justify-center">
-                    <h1 className="font-bold border-b-2 pb-2 my-10 text-xl md:text-2xl w-2/3 text-center">
+                    <h1 className="font-bold border-b-2 pb-2 my-10 text-xl md:text-2xl w-2/3 text-center font-playfair">
                     We guarantee a consistent, professional cleaning on every visit.
                     Please contact us to set up a free, no obligation estimate.
                     </h1>

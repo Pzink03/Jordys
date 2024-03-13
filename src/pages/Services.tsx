@@ -14,10 +14,10 @@ export function Services(){
             </div>
             <Reveal>
                 <div className="flex flex-col mt-[200px] justify-center items-center">
-                    <h1 className=' my-2 p-4 border-t-2 text-3xl md:text-6xl text-black'>
+                    <h1 className=' my-2 p-4 border-t-2 text-3xl md:text-6xl text-black font-playfair'>
                     What We Offer
                     </h1>
-                    <p className="md:w-1/2 w-5/6 text-center text-lg md:text-xl">
+                    <p className="md:w-1/2 w-5/6 text-center text-lg md:text-xl font-roboto">
                     Whether you require a regular cleaning schedule or a one-time deep clean, count on us to handle all your cleaning needs with expertise and care.
                     </p>
                 </div>
@@ -27,7 +27,7 @@ export function Services(){
             </Reveal>
             <Reveal>
                 <div className="w-full flex flex-col items-center justify-center">
-                    <h1 className="font-bold border-b-2 pb-2 text-xl md:text-2xl w-2/3 text-center">
+                    <h1 className="font-bold border-b-2 pb-2 text-xl md:text-2xl w-2/3 text-center font-playfair">
                     We guarantee a consistent, professional cleaning on every visit.
                     Please contact us to set up a free, no obligation estimate.
                     </h1>

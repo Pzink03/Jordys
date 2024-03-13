@@ -33,10 +33,10 @@ export function Contact(){
         </div>
         <Reveal>
           <div className='mt-[200px] w-full h-full pb-10 flex flex-col justify-center items-center'>
-            <h1 className=' my-2 p-4 border-t-2 text-3xl md:text-6xl text-black'>
+            <h1 className=' my-2 p-4 border-t-2 text-3xl md:text-6xl text-black font-playfair'>
             What We Offer
             </h1>
-            <p className="md:w-1/2 w-5/6 text-center">
+            <p className="md:w-1/2 w-5/6 text-center font-roboto">
             When you call us for a free estimate, we will meet with you to discuss your individual needs and review the details of each room. On every visit, we'll provide dusting, vacuuming, cleaning, and sanitizing services for each room from top to bottom. Our typical service includes everything on this list and mor
             </p>
             <form onSubmit={sendEmail} className='flex flex-col max-w-lg w-5/6 md:w-1/2 mt-4'>
@@ -48,7 +48,7 @@ export function Contact(){
               </button>
               <ul className='flex flex-col md:flex-row items-start md:gap-0 gap-4 justify-center'>
                 {ICON_LINKS.map (({id, child, href, style, text}) => (
-                  <li key={id} className={ "flex justify-center items-center whitespace-nowrap gap-2 mx-2 rounded-full  hover:bg-gray-600 hover:scale-105 transition duration-300 cursor-pointer" + " " + style }>
+                  <li key={id} className={ "flex justify-center items-center whitespace-nowrap gap-2 mx-2 rounded-full font-roboto hover:bg-gray-600 hover:scale-105 transition duration-300 cursor-pointer" + " " + style }>
                     <a className='flex justify-center items-center w-10 h-10 rounded-full bg-secondary-pink text-primary-green' href={href} target='_blank' rel="noreferrer">  {child}</a>
                     <p className=" text-base text-subtext font-semibold">{text}</p>
                   </li>
