@@ -52,13 +52,13 @@ const NavBar = () => {
       </div>
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-secondary md:hidden"
+        className="cursor-pointer pr-4 z-10 md:hidden"
       >
         {nav ? <FaTimes size={30} style={{ color: "#877EFF"}} /> : <FaBars size={30} style={{ color: "#877EFF"}} />}
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-secondary-pink text-secondary">
+        <ul className="flex flex-col pt-20 justify-center font-roboto items-center absolute top-0 left-0 w-full h-screen bg-secondary-pink text-secondary">
           {links.map(({ id, link, title }) => (
             <li
               key={id}
@@ -67,7 +67,7 @@ const NavBar = () => {
               <div
                 onClick={() => setNav(false)}
               >
-                <Link to={`${link}`} className={`${location.pathname === `${link}` ? 'text-primary-green border-b-4 border-primary-green': ''}`}>
+                <Link to={link} className={`${location.pathname === `${link}` ? 'text-primary-green border-b-4 border-primary-green': ''}`}>
                 {title}
               </Link>
               </div>
