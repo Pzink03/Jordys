@@ -7,12 +7,11 @@ export const ICON_LINKS = [
         child: (
             <>
             <HiOutlineMail size={30} />
-
             </>
         ),
-        href: 'https://www.linkedin.com/in/pete-zink-84199025b/',
+        href: "mailto:jordyscleaningserviceky@gmail.com",
+        text: "jordyscleaningserviceky@gmail.com",
         style: '',
-        text: "jordyscleaningserviceky@gmail.com"
     },
     {
         id: 2,
@@ -21,10 +20,8 @@ export const ICON_LINKS = [
                 <FaPhone size={20} />
             </>
         ),
-        href: 'https://github.com/PZink03',
-        text: "(859) 940-1927",
+        href: "tel:859 221 8828",
+        text: "(859) 221-8828",
         style: ""
-
     },
-
 ]

@@ -23,9 +23,11 @@ export function Footer() {
                     <ul className='flex flex-col justify-center items-start gap-2'>
                         {ICON_LINKS.map (({id, child, href, style, text}) => (
                             // eslint-disable-next-line
-                        <li key={id} className={ "flex gap-2 items-center justify-center rounded-full font-roboto first:hover:bg-gray-600 first:hover:scale-105 first:transition first:duration-300 first:cursor-pointer" + " " + style }>
-                            <a className='text-primary-green flex justify-center items-center bg-white rounded-full w-10 h-10' href={href} target='_blank' rel="noreferrer">  {child}</a>
-                            <p className="px-2 text-base text-subtext font-semibold">{text}</p>
+                        <li key={id} className={ "flex gap-2 items-center justify-center rounded-full font-roboto hover:bg-gray-600 hover:scale-105 transition duration-300 cursor-pointer" + " " + style }>
+                            <a className='flex justify-center items-center ' href={href}>
+                            <p className='text-primary-green flex justify-center items-center w-10 h-10 bg-white rounded-full'>  {child}</p>
+                            <p className="px-2 text-base text-subtext font-semibold whitespace-nowrap">{text}</p>
+                            </a>
                         </li>
                         ))}
                     </ul>

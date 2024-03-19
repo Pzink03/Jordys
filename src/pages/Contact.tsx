@@ -49,8 +49,10 @@ export function Contact(){
               <ul className='flex flex-col md:flex-row items-start md:gap-0 gap-4 justify-center'>
                 {ICON_LINKS.map (({id, child, href, style, text}) => (
                   <li key={id} className={ "flex justify-center items-center whitespace-nowrap gap-2 mx-2 rounded-full font-roboto hover:bg-gray-600 hover:scale-105 transition duration-300 cursor-pointer" + " " + style }>
-                    <a className='flex justify-center items-center w-10 h-10 rounded-full bg-secondary-pink text-primary-green' href={href} target='_blank' rel="noreferrer">  {child}</a>
-                    <p className=" text-base text-subtext font-semibold">{text}</p>
+                    <a className='flex justify-center items-center ' href={href}>
+                      <p className='text-primary-green flex justify-center items-center w-10 h-10 bg-white rounded-full'>  {child}</p>
+                      <p className="px-2 text-base text-subtext font-semibold whitespace-nowrap">{text}</p>
+                    </a>
                   </li>
                 ))}
               </ul>
