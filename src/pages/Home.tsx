@@ -51,7 +51,7 @@ export function Home(){
             <Reveal>
                 <div className="mt-4 text-black w-full flex flex-col items-center justify-center">
                     <h1 className="border-b-2 border-secondary-400 font-bold md:text-3xl text-2xl py-4 font-playfair">
-                        Some of Our Services
+                        Some Of Our Services
                     </h1>
                     <div className="py-4 max-w-6xl grid grid-cols-1 gap-y-12 sm:gap-x-4 md:grid-cols-3 lg:gap-x-4 lg:gap-y-0">
                         {perks.map((perk) => (
@@ -72,7 +72,7 @@ export function Home(){
                             </div>
                         ))}
                     </div>
-                    <div className="bg-secondary-pink flex flex-col items-center py-4">
+                    <div className="bg-secondary-pink w-full shadow-xl flex flex-col items-center py-4">
                         <h1 className="border-b-2 border-secondary-400 font-bold md:text-3xl text-2xl py-4 font-playfair">
                             Additional Information
                         </h1>
