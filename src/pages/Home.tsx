@@ -1,26 +1,30 @@
-import { LucideHome, CheckCircle, Leaf } from "lucide-react";
+import { Building2, HomeIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Reveal } from "@/components/Reveal";
+import { FaAirbnb } from "react-icons/fa";
 
 
 const perks = [
     {
         id: 1,
       name: "Airbnb",
-      Icon: LucideHome,
+      Icon: (<>
+
+      <FaAirbnb size={30} />
+      </>),
       description: 'Count on us to handle your Airbnb cleaning needs, providing thorough and detail-oriented services to ensure each guest enjoys a pristine and inviting space during their stay.'
     },
     {
         id: 2,
       name: "Office",
-      Icon: CheckCircle,
+      Icon: <Building2 size={30}/>,
       description: 'Our office and small building cleaning services guarantee a pristine and inviting environment, fostering productivity and professionalism in every space we touch.'
     },
     {
         id: 3,
       name: "Residential",
-      Icon: Leaf,
+      Icon: <HomeIcon size={30} />,
       description: "We take pride in offering genuine, top-notch cleaning services for homes and Airbnbs alike, creating a clean and welcoming space that reflects your professional standards."
     },
 
@@ -57,7 +61,7 @@ export function Home(){
                             <div key={perk.id} className="text-center shadow-md py-10 px-2 border-2 bg-secondary-pink md:flex md:items-start md:text-left lg:block lg:text-center">
                                 <div className="md:flex-shrink-0 flex justify-center">
                                     <div className="h-16 w-16 flex items-center justify-center rounded-full text-secondary-pink bg-primary-green">
-                                    {<perk.Icon />}
+                                    {perk.Icon}
                                     </div>
                                 </div>
                                 <div className="mt-6 md:ml-4 md:mt-0 lg:ml-0 lg:mt-6">
