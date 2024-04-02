@@ -7,7 +7,7 @@ import { Reveal } from "@/components/Reveal";
 const perks = [
     {
         id: 1,
-      name: "AirBnB",
+      name: "Airbnb",
       Icon: LucideHome,
       description: 'Count on us to handle your Airbnb cleaning needs, providing thorough and detail-oriented services to ensure each guest enjoys a pristine and inviting space during their stay.'
     },
@@ -21,7 +21,7 @@ const perks = [
         id: 3,
       name: "Residential",
       Icon: Leaf,
-      description: "We've pledged 1% of sales to the preservation and restoration of the natural environment. We've pledged 1% of sales to the preservation and restoration of the natural environment."
+      description: "We take pride in offering genuine, top-notch cleaning services for homes and Airbnbs alike, creating a clean and welcoming space that reflects your professional standards."
     },
 
   ]
@@ -42,8 +42,7 @@ export function Home(){
                                 Why Choose Jordy's?
                             </h1>
                             <p className="text-center inline-block text-subtext md:w-1/2 w-5/6 font-roboto">
-                            Merry Maids® is so much more than just a home cleaning service. We are a company dedicated to giving our customers back the time they deserve to enjoy the things they love. We put The Extra In Your Ordinary ®, restoring balance to your life by taking care of your home. Life flies by in the blink of an eye, so it’s crucial to stop and enjoy it. With Merry Maids®, you can do just that.
-                            Our house cleaning services cover every inch of your space. We can freshen up your bathroom, invigorate your kitchen, and restore your bedroom to ensure you have the beautiful and clean home you deserve. We’ll get deep into the corners and crevices to rid your space of any dust, germs, and bacteria to deliver a home that is both spotless and healthy.
+                            Welcome to our locally-owned cleaning company, operated by a passionate young couple right here in Lexington, KY. Our mission is to provide exceptional and trustworthy cleaning services in the Southern KY area for vacation rentals and offices, creating inviting and pristine spaces for guests and employees alike.
                             </p>
                     </div>
                 </section>
@@ -72,12 +71,14 @@ export function Home(){
                             </div>
                         ))}
                     </div>
-                    <div className="bg-secondary-pink w-full shadow-xl flex flex-col items-center py-4">
+                </div>
+            </Reveal>
+                    <div className="bg-secondary-pink w-full shadow-md flex flex-col items-center py-4">
                         <h1 className="border-b-2 border-secondary-400 font-bold md:text-3xl text-2xl py-4 font-playfair">
                             Additional Information
                         </h1>
-                        <p className="md:w-1/2 w-5/6 text-center text-subtext font-roboto">
-                            Not sure if Jordy's is the right choice for you? Please, feel free to call us any time or fill out our contact form to email us directly to set up a free consultation.
+                        <p className="md:w-1/2 w-5/6 text-center  text-subtext font-roboto">
+                        Please view our Services section to view a detailed list of our typical services.
                         </p>
                         <Link to="/services">
                             <Button className="rounded mt-4 text-lg text-secondary-pink hover:scale-110 transition" variant="default">
@@ -85,8 +86,6 @@ export function Home(){
                             </Button>
                         </Link>
                     </div>
-                </div>
-            </Reveal>
             <section className="flex flex-col justify-center items-center">
             <h1 className="border-b-2 pt-10 border-secondary-400 font-bold md:text-3xl text-2xl py-4 font-playfair">
                     Free Estimate

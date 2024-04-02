@@ -37,10 +37,10 @@ export function Contact(){
             <h1 className=' my-2 p-4 border-t-2 text-3xl md:text-6xl text-black font-playfair'>
             What We Offer
             </h1>
-            <p className="md:w-1/2 w-5/6 text-center font-roboto">
-            When you call us for a free estimate, we will meet with you to discuss your individual needs and review the details of each room. On every visit, we'll provide dusting, vacuuming, cleaning, and sanitizing services for each room from top to bottom. Our typical service includes everything on this list and mor
+            <p className="md:w-2/3 w-5/6 text-center font-roboto">
+            When you submit this form, we'll be in touch as soon as possible to discuss your individual needs. We look forward to connecting with you!
             </p>
-            <form onSubmit={sendEmail} className='flex flex-col max-w-lg w-5/6 md:w-1/2 mt-4'>
+            <form onSubmit={sendEmail} className='flex flex-col max-w-lg w-5/6 md:w-2/3 mt-4'>
               <input type='text' name='user_name' placeholder='Enter your name' className='p-2 rounded mt-4 border-gray-300 border-2 text-subtext focus:outline-none hover:border-secondary-pink focus:border-secondary-pink transition duration-300' />
               <input type='text' name='user_email' placeholder='Enter your email' className='rounded my-4 p-2 border-gray-300 border-2  text-subtext focus:outline-none  hover:border-secondary-pink focus:border-secondary-pink transition duration-300' />
               <textarea name='message' placeholder='Enter your message' rows={10} className='p-2 bg-transparent border-2 border-gray-300 rounded text-subtext focus:outline-none hover:border-secondary-pink focus:border-secondary-pink transition duration-300'></textarea>

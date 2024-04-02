@@ -28,8 +28,8 @@ export function Services(){
             <Reveal>
                 <div className="w-full flex flex-col items-center justify-center">
                     <h1 className="font-bold border-b-2 pb-2 text-xl md:text-2xl w-2/3 text-center font-playfair">
-                    We guarantee a consistent, professional cleaning on every visit.
-                    Please contact us to set up a free, no obligation estimate.
+                    We guarantee a consistent, professional cleaning during every visit.
+                    Please contact us to receive a free, no obligation estimate.
                     </h1>
                     <Link to="/contact">
                         <Button className="rounded mt-4 text-lg text-secondary-pink hover:scale-110 transition" variant="default">

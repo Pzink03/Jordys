@@ -18,7 +18,7 @@ export function About(){
                             About Jordy's
                         </h1>
                         <div className="max-w-4xl p-4 flex flex-col items-center justify-center relative">
-                            <p className="text-subtext md:text-xl text-lg w-5/6 text-center">
+                            <p className="text-subtext w-5/6 text-center">
                             Whether you require a regular cleaning schedule or a one-time deep clean, count on us to handle all your cleaning needs with expertise and care.
                             </p>
                         </div>
@@ -51,11 +51,10 @@ export function About(){
                                 />
                                 <div className="px-4 md:px-10 py-10 text-center block items-center">
                                     <h1 className=' p-2 text-4xl text-black border-b-2 inline-block font-playfair'>
-                                        Exceptional Service You Can Trust
+                                    Passion that Drives Us
                                     </h1>
                                     <p className="text-center text-subtext block">
-                                    Merry Maids® is so much more than just a home cleaning service. We are a company dedicated to giving our customers back the time they deserve to enjoy the things they love. We put The Extra In Your Ordinary ®, restoring balance to your life by taking care of your home. Life flies by in the blink of an eye, so it’s crucial to stop and enjoy it. With Merry Maids®, you can do just that.
-                                    Our house cleaning services cover every inch of your space. We can freshen up your bathroom, invigorate your kitchen, and restore your bedroom to ensure you have the beautiful and clean home you deserve. We’ll get deep into the corners and crevices to rid your space of any dust, germs, and bacteria to deliver a home that is both spotless and healthy.
+                                    Embarking on this cleaning venture isn't just about maintaining rental homes and offices; it's our journey toward financial stability and achieving personal milestones. With dreams of paying off student loans, funding our future wedding, and eventually owning a home, every client we serve brings us one step closer to realizing our aspirations and building the life we've always dreamed of together.
                                     </p>
                                 </div>
                             </div>

@@ -97,31 +97,31 @@ export function ServiceCard() {
                   <ul className="w-80 h-auto list-disc flex pt-4 flex-col gap-y-2 font-roboto">
                   <p className="text-center text-xl font-semibold pb-2 font-playfair">Services Include:</p>
                   <li className="text-lg ">
-                Dusting and wiping down surfaces
+                  Cleaning and tidying all rooms
                     </li>
                     <li className="text-lg ">
-                    Vacuuming and mopping floors
+                    Dusting surfaces such as furniture, shelves, picture frames, and decorative items
                     </li>
                     <li className="text-lg ">
-                    Cleaning and sanitizing bathrooms
+                    Vacuuming carpets and rugs, and mopping floors
                     </li>
                     <li className="text-lg ">
-                    Restocking amenities such as toiletries and towels
+                    Changing bed linens and making beds
                     </li>
                     <li className="text-lg ">
+                    Cleaning and disinfecting bathrooms, including sinks, toilets, showers, and tubs
+                    </li>
+                    <li className="text-lg ">
+                    Washing dishes, loading/unloading dishwasher, and tidying up kitchen countertops
+                    </li>
+                    <li className="text-lg">
+                    Cleaning kitchen appliances such as microwave, oven, refrigerator, and stove
+                    </li>
+                    <li className="text-lg">
                     Emptying trash bins and replacing liners
                     </li>
-                    <li className="text-lg ">
-                    Cleaning kitchen appliances, countertops, and dishes
-                    </li>
                     <li className="text-lg">
-                    Checking for any damages or maintenance issues
-                    </li>
-                    <li className="text-lg">
-                    Communicating with the host about any special requests or issues
-                    </li>
-                    <li className="text-lg">
-                    Ensuring the property is guest-ready before each arrival.
+                    Organizing closets, cabinets, and storage spaces
                     </li>
                   </ul>
               </div>
